@@ -40,4 +40,4 @@ kubeconf-select appendix
 3. The script will then execute the following:
    1. Read the *appendix* and the current working directory into variables
    2. Symbolically link the `config.appendix` as `config` in the `~/.kube` directory
-   3. `cd` to the working directory set in a.
+   3. `cd` to the working directory set in *i*.
