@@ -1,0 +1,6 @@
+#autoload
+readonly appendix=${1:?"The config file appendix must be specified."}
+readonly pwd=$PWD
+cd ~/.kube
+ln -vsf config."$appendix" config
+cd $pwd
