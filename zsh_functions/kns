@@ -1,0 +1,3 @@
+#autoload
+readonly namespace=${1:?"Namespace must be provided"}
+kubectl config set-context --current --namespace="$namespace"
